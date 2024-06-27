@@ -1,0 +1,7 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["bluetooth", "network", "battery", "clock"],
+    "include": ["~/.config/waybar/modules.json"]
+}
