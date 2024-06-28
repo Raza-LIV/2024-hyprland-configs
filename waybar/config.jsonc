@@ -1,7 +1,17 @@
 {
     "layer": "top",
     "position": "top",
-    "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["bluetooth", "network", "battery", "clock"],
-    "include": ["~/.config/waybar/modules.json"]
+    "modules-left": ["sway/workspaces"],
+    "modules-center": [],
+    "modules-right": [
+        "group/hardware", 
+        "network", 
+        "backlight",
+        "battery", 
+        "hyprland/language", 
+        "clock"
+    ],
+    "include": [
+        "~/.config/waybar/modules.jsonc"
+    ]
 }
