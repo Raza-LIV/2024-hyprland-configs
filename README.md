@@ -13,7 +13,7 @@ yay -Syu
 yay -S hyprland kitty thunar wofi waybar colloid-catppucin-gtk-theme-git
 ```
 
-Then pacman packages^
+Then pacman packages
 ```sh
 sudo pacman -Syu
 sudo pacman -S hyprpaper fastfetch firefox-developer-edition ttf-jetbrains-mono-nerd nwg-look
