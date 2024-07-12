@@ -1,0 +1,9 @@
+#!/bin/bash
+
+current_status=$(amixer get Master | grep '\[on\]')
+
+if [ -n "$current_status" ]; then
+  amixer set Master mute
+else
+  amixer set Master unmute
+fi

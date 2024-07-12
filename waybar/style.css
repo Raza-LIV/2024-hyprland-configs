@@ -1,9 +1,10 @@
 * {
-    font-family: "JetBrains Mono";
+    font-family: "FiraCode Nerd Font Regular";
     color: #fff;
     font-size: 14px;
     margin: 0px;
     padding: 0px;
+    transition-duration: 300ms;
 }
 
 window#waybar {
@@ -15,11 +16,42 @@ window#waybar {
 **[RIGHT]**
 **********/
 
-#custom-system,
+#custom-settings,
+#custom-tools,
+#custom-color-picker,
 #network,
 #backlight,
 #pulseaudio,
 #battery, 
+#workspaces,
+#bluetooth,
+#taskbar,
 #clock {
-    padding: 6px 12px;
+    padding: 4px 12px;
+}
+
+#workspaces button:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+#workspaces button{
+    border-radius: 6px;
+    padding: 0px 4px;
+}
+
+#workspaces button.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#language {
+    font-size: 16px;
+    padding: 0px 4px;
+}
+
+#taskbar button {
+    padding: 0px 8px 0px 12px;
+}
+
+#cava {
+    background-color: aqua;
 }
